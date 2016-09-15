@@ -25,7 +25,7 @@ namespace QuotationDB
         public List<Quotes> GetAllQuotes()
         {
             var sql = @"SELECT
-                         ID, AuthorsFirstName, AuthorsLastName, PublicationName,
+                         ID, AuthorsFirstName, AuthorsLastName, PublicationsName,
                          Type, PublishedDate, Quote, Url, Tags 
                         FROM dbo.Quotes";
 
@@ -59,7 +59,7 @@ namespace QuotationDB
         public Quotes GetSingleQuote(int id)
         {
             var sql = @"SELECT
-                         ID, AuthorsFirstName, AuthorsLastName, PublicationName,
+                         ID, AuthorsFirstName, AuthorsLastName, PublicationsName,
                          Type, PublishedDate, Quote, Url, Tags 
                         FROM dbo.Quotes 
                         WHERE Id = @id";
@@ -88,6 +88,83 @@ namespace QuotationDB
                 }
             }
             return quote;
+        }
+
+        public void InsertNewQuote(Quotes quote)
+        {
+            var sql = @"INSERT INTO dbo.Quotes
+                         (AuthorsFirstName, AuthorsLastName, PublicationsName,
+                         Type, PublishedDate, Quote, Url, Tags)
+                        VALUES ( @authorsFirstName, @authorsLastName, @publicationsName,
+                         @type, @publishedDate, @quote, @url, @tags)
+
+                       SELECT Id = Scope_Identity()";
+
+            using (SqlCommand cmd = new SqlCommand(sql, _conn))
+            {
+                cmd.Parameters.AddWithValue("@authorsFirstName", quote.AuthorsFirstName);
+                cmd.Parameters.AddWithValue("@authorsLastName", quote.AuthorsLastName);
+                cmd.Parameters.AddWithValue("@publicationsName", quote.PublicationsName);
+                cmd.Parameters.AddWithValue("@type", quote.Type.ToString());
+                cmd.Parameters.AddWithValue("@publishedDate", quote.PublishedDate);
+                cmd.Parameters.AddWithValue("@quote", quote.Quote);
+                cmd.Parameters.AddWithValue("@url", quote.Url);
+                cmd.Parameters.AddWithValue("@tags", quote.Tags);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        quote.Id = Convert.ToInt32(reader["Id"]);
+                    }
+                }
+            }
+        }
+
+        public void UpdateQuote(Quotes quote)
+        {
+            var sql = @"UPDATE dbo.Quotes
+                         Set AuthorsFirstName = @authorsFirstName,
+                             AuthorsLastName = @authorsLastName,
+                             PublicationsName = @publicationsName,
+                             Type = @type, 
+                             PublishedDate = @publishedDate, 
+                             Quote = @quote, 
+                             Url = @url, 
+                             Tags = @tags
+                        WHERE Id = @id";
+
+            using (SqlCommand cmd = new SqlCommand(sql, _conn))
+            {
+                cmd.Parameters.AddWithValue("@authorsFirstName", quote.AuthorsFirstName);
+                cmd.Parameters.AddWithValue("@authorsLastName", quote.AuthorsLastName);
+                cmd.Parameters.AddWithValue("@publicationsName", quote.PublicationsName);
+                cmd.Parameters.AddWithValue("@type", quote.Type.ToString());
+                cmd.Parameters.AddWithValue("@publishedDate", quote.PublishedDate);
+                cmd.Parameters.AddWithValue("@quote", quote.Quote);
+                cmd.Parameters.AddWithValue("@url", quote.Url);
+                cmd.Parameters.AddWithValue("@tags", quote.Tags);
+                cmd.Parameters.AddWithValue("@id", quote.Id);
+
+                int rowCount = cmd.ExecuteNonQuery();
+                if (rowCount < 1)
+                {
+                    throw new Exception("No Rows have been updated in the method UpdateQuotes");
+                }
+            }
+        }
+
+        public void DeleteQuote(Quotes quote)
+        {
+            var sql = @"DELETE FROM dbo.Quotes WHERE id = @id";
+            using (SqlCommand cmd = new SqlCommand(sql, _conn))
+            {
+                cmd.Parameters.AddWithValue("@id", quote.Id);
+                int rowCount = cmd.ExecuteNonQuery();
+                if (rowCount < 1)
+                {
+                    throw new Exception("No Rows have been updated in the method UpdateQuotes");
+                }
+            }
         }
     }
 }
