@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotationDB", "QuotationDB\QuotationDB.csproj", "{6C0D70A8-9181-4507-B4C6-741182672C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotationsDBTest", "QuotationsDBTest\QuotationsDBTest.csproj", "{945C4F94-DDF4-48B7-B768-E076332BE2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0D70A8-9181-4507-B4C6-741182672C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0D70A8-9181-4507-B4C6-741182672C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0D70A8-9181-4507-B4C6-741182672C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0D70A8-9181-4507-B4C6-741182672C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945C4F94-DDF4-48B7-B768-E076332BE2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945C4F94-DDF4-48B7-B768-E076332BE2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945C4F94-DDF4-48B7-B768-E076332BE2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945C4F94-DDF4-48B7-B768-E076332BE2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

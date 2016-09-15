@@ -1,0 +1,15 @@
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationDB\bin\Debug\QuotationDB.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationDB\bin\Debug\QuotationDB.pdb
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.csprojResolveAssemblyReference.cache
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationDB\bin\Debug\QuotationDB.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationDB\bin\Debug\QuotationDB.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.csprojResolveAssemblyReference.cache
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationDB\obj\Debug\QuotationDB.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\Quotation\QuotationDB\bin\Debug\QuotationDB.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\Quotation\QuotationDB\bin\Debug\QuotationDB.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\Quotation\QuotationDB\obj\Debug\QuotationDB.csprojResolveAssemblyReference.cache
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\Quotation\QuotationDB\obj\Debug\QuotationDB.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\Quotation\QuotationDB\obj\Debug\QuotationDB.pdb

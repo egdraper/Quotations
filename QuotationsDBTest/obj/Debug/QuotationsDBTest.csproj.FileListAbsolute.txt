@@ -1,0 +1,20 @@
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.csprojResolveAssemblyReference.cache
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.pdb
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationDB.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationDB.pdb
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.dll
+c:\users\eric draper\documents\visual studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.pdb
+C:\Users\Eric Draper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\TestDB.mdf
+C:\Users\Eric Draper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.dll.config
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.csprojResolveAssemblyReference.cache
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\obj\Debug\QuotationsDBTest.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\TestDB.mdf
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.dll.config
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationsDBTest.pdb
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationDB.dll
+C:\Users\edraper\Documents\Visual Studio 2015\Projects\QuotationDirectory\QuotationsDBTest\bin\Debug\QuotationDB.pdb
